@@ -4,7 +4,7 @@ import {Header} from "../Header/Header";
 
 export const Skeleton = () => {
     return (
-        <div className="relative max-w-sm mx-auto flex flex-col min-h-screen bg-gray-400 bg-opacity-30">
+        <div className="relative max-w-sm mx-auto flex flex-col bg-gray-400 bg-opacity-30">
 
             <div className='mt-auto w-full bg-white rounded-tl-xl rounded-tr-xl py-3.5 bg-gradient-to-b from-blue-100 to-blue-50 opacity-50'>
                 <Header/>

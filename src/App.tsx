@@ -44,9 +44,9 @@ const App = () => {
 
 
     return (
-        <div className="relative max-w-sm mx-auto flex flex-col min-h-screen bg-gray-400 bg-opacity-30">
+        <div className="relative max-w-sm mx-auto flex flex-col mt-auto w-full bg-gray-400 bg-opacity-30">
             <div
-                className='mt-auto w-full rounded-tl-xl rounded-tr-xl py-3.5'
+                className='mt-auto  rounded-tl-xl rounded-tr-xl py-3.5'
                 style={{
                     background: 'linear-gradient(180deg, rgba(196, 234, 255, 0.5) 0%, rgba(255, 255, 255, 0.5) 0%, rgba(225, 239, 255, 0.5) 60%), white'
                 }}

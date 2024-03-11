@@ -3,9 +3,12 @@ import React from "react";
 
 export const Menu = () => {
     return (
-        <div className="p-2 flex">
+        <div className="p-2 flex"
+             style={{ backgroundColor: '#F1F1F2' }}
+        >
 
-            <Button visible={true} className="bg-blue-600 text-white max-w-24 h-9">
+            <Button visible={true} className="bg-blue-600 text-white max-w-24 h-9"
+            >
                 <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M5 6.5h13m-13 5h13m-13 5h13" stroke="#fff" strokeWidth="1.67" strokeLinecap="round"
                           strokeLinejoin="round"/>
