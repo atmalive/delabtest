@@ -44,7 +44,7 @@ const App = () => {
 
 
     return (
-        <div className="relative max-w-sm mx-auto flex flex-col mt-auto w-full bg-gray-400 bg-opacity-30">
+        <div className="relative  mx-auto flex flex-col mt-auto w-full bg-gray-400 bg-opacity-30">
             <div
                 className='mt-auto  rounded-tl-xl rounded-tr-xl py-3.5'
                 style={{
